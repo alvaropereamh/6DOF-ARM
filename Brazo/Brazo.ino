@@ -87,7 +87,7 @@ if (angulo5<=110){
      void loop(){ 
       pulsacion=digitalRead(4);
       if (  pulsacion == LOW ){      
-         contador++;               //Incrementa el contador
+         contador++;               //Incrementa el contador en 1  
          if (contador == 6){
           contador=1;
          }
